@@ -1,0 +1,27 @@
+.box {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.re {
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.info {
+    width: 100%;
+    font-size: 15px;
+}
+
+.info span {
+    color: #f77b72;
+}
+

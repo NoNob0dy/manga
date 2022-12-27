@@ -1,0 +1,28 @@
+.box {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+.box img {
+    width: 100%;
+}
+
+/* 设置re段落的样子 */
+.re {
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.info {
+    width: 100%;
+    font-size: 15px;
+}
+
+/* 设置金额颜色 */
+.info span {
+    color: #f77b72;
+}
+

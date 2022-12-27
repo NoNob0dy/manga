@@ -1,0 +1,162 @@
+.hide {
+    display: none;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: "microsoft yahei", serif;
+    color: #333333;
+}
+
+input[type="text"], input[type="search"] {
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+
+html, body, #contain {
+    height: 800px;
+    width: 1250px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#top {
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+#logo {
+    width: 38%;
+    height: 100%;
+    float: left;
+    color: #fff;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+#search {
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-top: 1%;
+}
+
+.search {
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+#search_width {
+    height: 100%;
+    width: 80%;
+}
+
+#search_button {
+    height: 100%;
+    width: 15%;
+    background-color: pink;
+}
+
+#login {
+    width: 30%;
+    height: 40%;
+    float: right;
+    margin-top: 1%;
+    padding-left: 3%;
+}
+
+.login {
+    height: 100%;
+    width: 25%;
+    background-color: pink;
+    border-radius: 10px;
+    margin: 0 0 10% 10%;
+}
+
+.welcome {
+    float: left;
+    text-align: left;
+    margin-top: 2%;
+}
+
+table td {
+    padding: 2px;
+}
+
+table.center {
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+}
+
+#links {
+    height: 10%;
+    width: 99%;
+    background: linear-gradient(to right, #ebbba7 0%, #e7c9ff 100%);
+    border-radius: 5px;
+}
+
+.links_button {
+    background-color: pink;
+    border-radius: 10px;
+    width: 10%;
+    height: 50%;
+    margin: 1.5% 0 17% 17%;
+}
+
+#end {
+    height: auto;
+    width: 99%;
+    background: linear-gradient(to right, #ebbba7 0%, #e7c9ff 100%);
+    border-radius: 5px;
+}
+
+#information {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: pink;
+    border-radius: 5px;
+    text-align: center;
+    overflow: auto;
+    font-size: medium;
+}
+
+#information a {
+    line-height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#information a:link {
+    color: #f700ff;
+    text-decoration: underline;
+}
+
+#information a:visited {
+    color: #e88ab7;
+    text-decoration: none;
+}
+
+#information a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#information p {
+    line-height: 25px;
+}
+
