@@ -38,12 +38,12 @@
                     mnum: {
                         required: true,
                         digits: true,
-                        min: 0
+                        min: 1
                     },
                     mprice: {
                         required: true,
                         number: true,
-                        range: [0, 1000]
+                        range: [1, 1000]
                     },
                 },
                 messages: {

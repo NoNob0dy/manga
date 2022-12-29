@@ -1,8 +1,9 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ page import="com.bean.mangaData, java.sql.*, java.util.List" %>
+<%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="java.util.regex.Pattern" %>
-<%@ page import="java.util.regex.Matcher" %>
+<%@ page import="org.ansj.domain.Result" %>
+<%@ page import="org.ansj.splitWord.analysis.ToAnalysis" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -12,9 +13,11 @@
     <title>漫画屋</title>
     <link rel="stylesheet" type="text/css" href="css/manga.css"/>
     <jsp:useBean id="lists" class="com.bean.mangaListsForShow"/>
+    <jsp:useBean id="ansj" class="com.bean.ansjSearch"/>
     <%
         lists.getLists();
         String search = request.getParameter("search");
+        List<Integer> flag = new ArrayList<>();
     %>
 </head>
 <body>
@@ -22,23 +25,18 @@
     <jsp:include page="head.jsp" flush="true"/>
     <%
         if (!lists.mnames.isEmpty()) {
-            List<Integer> flag = new ArrayList<>();
-            if (search.equals("")) {
-                for (int i = 0; i < lists.mnames.size(); i++) {
+            for (int i = 0; i < lists.mnames.size(); i++) {
+                if (search.equals("")) {
                     flag.add(i);
+                } else {
+                    if (ansj.search(lists.mnames.get(i), search)) {
+                        flag.add(i);
+                    }
                 }
-            } else {
-                for (int i = 0; i < lists.mnames.size(); i++) {
-    %>
-    <script type="text/javascript">
-        if ("[<%=search%>]".test(<%=lists.mnames.get(i)%>)) {
-            <%flag.add(i);%>
-        }
-    </script>
-    <%
             }
-        }
-        for (int i = 0; i < flag.size(); i++) {
+            if (!flag.isEmpty()) {
+                for (int i = 0; i < flag.size(); i++) {
+
     %>
     <table class="table table-bordered" id="manga">
         <div class="box">
@@ -56,7 +54,8 @@
             </div>
         </div>
         <%
-                }
+                    }
+                } else out.print("<script>alert('未检索到该漫画！')</script>");
             } else out.print("<script>alert('当前无上架漫画')</script>");
         %>
     </table>

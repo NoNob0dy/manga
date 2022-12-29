@@ -12,7 +12,7 @@
     <script type="text/javascript" charset="utf-8">
         $().ready(function () {
             jQuery.validator.addMethod("judgePassword", function () {
-                cmp = document.getElementById("pwd1").value;
+                let cmp = document.getElementById("pwd1").value;
                 let obj_nl = new RegExp(/[a-z1-9]/i);
                 let obj_s = new RegExp(/[^a-z1-9]/i);
                 return obj_nl.test(cmp) && obj_s.test(cmp);

@@ -11,18 +11,13 @@
     <script src="js/messages_zh.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
         $().ready(function () {
-            $.validator.addMethod("checkEnter", function () {
-                if ($('#mname').value.indexOf(" ") !== -1) {
-                    return false;
-                } else {
-                    return true;
-                }
-            }, "不能输入空格");
+            $(document).find("input").on("input", function() {
+                this.value = this.value.replace(/\s/g, "-");
+            })
             $("#inputForm").validate({
                 rules: {
                     mname: {
                         required: true,
-                        checkEnter: true,
                         minlength: 2,
                     },
                     mauthor: {
@@ -43,18 +38,17 @@
                     mnum: {
                         required: true,
                         digits: true,
-                        min: 0
+                        min: 1
                     },
                     mprice: {
                         required: true,
                         number: true,
-                        range: [0, 1000]
+                        range: [1, 1000]
                     },
                 },
                 messages: {
                     mname: {
                         required: "请输入系列名",
-                        checkEnter: "不能输入空格",
                         minlength: "系列名不少于2个字节！",
                     },
                     mauthor: {
