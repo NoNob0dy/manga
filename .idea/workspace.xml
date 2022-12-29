@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/java/com/bean/filter/encodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/java/com/filter/encodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/java/com/bean/filter/identifyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/java/com/filter/identifyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT.war" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/Work/Tomcat9/lib/servlet-api.jar",
+    "last_opened_file_path": "F:/Code/manga",
     "project.structure.last.edited": "库",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.20689656",
@@ -205,7 +198,8 @@
       <workItem from="1672179321445" duration="957000" />
       <workItem from="1672202648981" duration="16070000" />
       <workItem from="1672238477732" duration="14686000" />
-      <workItem from="1672281503086" duration="1202000" />
+      <workItem from="1672281503086" duration="1284000" />
+      <workItem from="1672316148862" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672147504355</created>
@@ -235,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672281555528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1672282713432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672282713432</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
