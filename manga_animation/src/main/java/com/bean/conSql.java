@@ -19,7 +19,7 @@ public class conSql {
         sqlClass();
         try {
             String url = "jdbc:mysql://localhost:3306/" + schemaName + "?serverTimezone=UTC";
-            con = DriverManager.getConnection(url, "root", "747801");
+            con = DriverManager.getConnection(url, "root", "BHGA.DA.86h?c5");
         } catch (SQLException e) {
             e.printStackTrace();
         }

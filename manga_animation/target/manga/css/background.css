@@ -1,0 +1,6 @@
+body {
+    background: url("../img/faded-sun.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

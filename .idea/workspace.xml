@@ -11,6 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/java/com/bean/conSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/java/com/bean/conSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/bean/conSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/bean/conSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/conSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/conSql.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/Code/manga",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20689656",
-    "settings.editor.selected.configurable": "http.proxy"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Code/manga&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.alibabacloud.intellij.config.AccountConfigurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Code\manga\manga_animation\src\main\webapp\WEB-INF\lib" />
@@ -79,6 +83,62 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.68">
+    <configuration name="ECS on Alibaba Cloud" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory">
+      <option name="accountModel" />
+      <option name="accountModels">
+        <list>
+          <AccountModel>
+            <option name="ak" value="LTAI5tSG7GK4npstkHNJ8bxh" />
+            <option name="profileName" value="Default" />
+            <option name="secret" value="GKPSuWyXZFrHfnmNxz0CYekSCklMKk" />
+            <option name="show" value="false" />
+          </AccountModel>
+        </list>
+      </option>
+      <option name="address" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances">
+        <list>
+          <EcsInstance>
+            <option name="OSType" value="linux" />
+            <option name="instanceId" value="i-bp1f467jhwnuenpvyz3y" />
+            <option name="instanceName" value="den21s_manga" />
+            <option name="netType" value="vpc" />
+            <option name="privateIps" value="172.18.222.129" />
+            <option name="publicIps" value="47.97.195.41" />
+            <option name="regionId" value="cn-hangzhou" />
+            <option name="tags">
+              <list />
+            </option>
+          </EcsInstance>
+        </list>
+      </option>
+      <option name="hostIds" />
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/data/wwwroot/default" />
+      <option name="pathOrUrl" value="F:\Code\manga\manga_animation\target\manga.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="ECS" />
+      <option name="uploadType" value="FILE" />
+      <method v="2" />
+    </configuration>
     <configuration name="index.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/manga_animation_Web_exploded/index.jsp">
       <method v="2" />
     </configuration>
@@ -172,6 +232,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="ECS on Alibaba Cloud.ECS on Alibaba Cloud" />
       <item itemvalue="JavaScript 调试.index.jsp" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.68" />
     </list>
@@ -182,6 +243,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="" />
@@ -200,6 +264,12 @@
       <workItem from="1672238477732" duration="14686000" />
       <workItem from="1672281503086" duration="1284000" />
       <workItem from="1672316148862" duration="119000" />
+      <workItem from="1672316274165" duration="953000" />
+      <workItem from="1672320004193" duration="182000" />
+      <workItem from="1672320195775" duration="2620000" />
+      <workItem from="1672367246631" duration="1313000" />
+      <workItem from="1672393143354" duration="2624000" />
+      <workItem from="1672400209821" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672147504355</created>
@@ -236,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672282713432</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1672316340345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672316340345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
