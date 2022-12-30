@@ -11,10 +11,75 @@
   <component name="ChangeListManager">
     <list default="true" id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/java/com/bean/conSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/java/com/bean/conSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/bean/conSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/bean/conSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/conSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/conSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/ansjSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/conSql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/getMangaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/getMangaParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/getUserData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/ifAccountDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/mangaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/mangaLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/mangaListsForShow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/orderLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/predictBugsNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/userData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/bean/utfEncoding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/filter/encodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/filter/identifyFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/buyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/changeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/deleteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/inputServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/loginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/orderServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/picServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/registerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/com/servlet/walletServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/lib/ansj_seg-5.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/lib/tomcat-servlet-api-9.0.68.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/lib/word-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/buy_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/change_manga.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/css/background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/css/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/css/login_register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/css/manga.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/css/slideshow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/faded-sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/login_l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/login_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/profile_l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/profile_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/register_l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/img/register_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/input.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/js/bootstrap-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/js/jquery-3.6.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/js/jquery.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/js/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/js/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/js/tail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/logout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/manga.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/manga_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/profile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/purchased.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/saled.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga_animation-1.0-SNAPSHOT/sql/manga.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +147,7 @@
       <recent name="F:\Code\manga\manga_animation\src\main\webapp\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.68">
+  <component name="RunManager" selected="ECS on Alibaba Cloud.ECS on Alibaba Cloud">
     <configuration name="ECS on Alibaba Cloud" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory">
       <option name="accountModel" />
       <option name="accountModels">
@@ -270,6 +335,7 @@
       <workItem from="1672367246631" duration="1313000" />
       <workItem from="1672393143354" duration="2624000" />
       <workItem from="1672400209821" duration="167000" />
+      <workItem from="1672401083243" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672147504355</created>
@@ -313,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672316340345</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1672401148997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672401148997</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1672401153564</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672401153564</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
