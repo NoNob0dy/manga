@@ -53,7 +53,7 @@ public class registerServlet extends HttpServlet {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            out.print("<script type = 'text/javascript'>alert('注册成功！稍后返回登陆界面');");
+            out.print("<script type = 'text/javascript'>alert('注册成功！');");
             out.print("location.href='./login.jsp';</script>");
         } else {
             if (alert.equals("account")) {

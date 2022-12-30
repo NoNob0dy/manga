@@ -53,7 +53,7 @@ public class loginServlet extends HttpServlet {
             response.sendRedirect("./index.jsp");
         } else {
             out.print("<script type = 'text/javascript'>alert('用户不存在或密码错误！');");
-            out.print("window.history.go(-1);</script>");
+            out.print("location.href='./login.jsp';</script>");
         }
     }
 
