@@ -11,7 +11,35 @@
   <component name="ChangeListManager">
     <list default="true" id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/java/com/servlet/picServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/java/com/servlet/picServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/js/tail.js" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/js/tail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/picServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/picServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/registerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manga_animation/target/manga.war" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/picServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/picServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/registerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/js/tail.js" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/js/tail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/manga_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/manga_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/picServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/picServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/registerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/js/tail.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/js/tail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/manga_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/manga_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +68,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2JQ3Z6CD5TlzSPR6V861eR4ZR91" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,26 +79,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Code/manga&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.alibabacloud.intellij.config.AccountConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/ArchiveForTencent/476412065/FileRecv/教学辅助",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.20689656",
+    "settings.editor.selected.configurable": "com.alibabacloud.intellij.config.AccountConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Code\manga\manga_animation\src\main\webapp\WEB-INF\lib" />
@@ -269,6 +300,15 @@
       <workItem from="1672400209821" duration="167000" />
       <workItem from="1672401083243" duration="544000" />
       <workItem from="1672401800813" duration="11000" />
+      <workItem from="1672405824639" duration="4285000" />
+      <workItem from="1672413492301" duration="1933000" />
+      <workItem from="1672415478533" duration="61000" />
+      <workItem from="1672415593089" duration="2825000" />
+      <workItem from="1672490994712" duration="547000" />
+      <workItem from="1672561795962" duration="1021000" />
+      <workItem from="1672714071793" duration="4944000" />
+      <workItem from="1672925130668" duration="24000" />
+      <workItem from="1673430770085" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672147504355</created>
@@ -333,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672401597187</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1672406063498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672406063498</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

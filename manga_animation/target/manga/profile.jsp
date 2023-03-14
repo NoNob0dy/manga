@@ -16,9 +16,9 @@
             if (money != null) {
                 if (reg.test(money)) {
                     if (confirm('是否确定充值？')) {
-                        money += <%=data.wallet%>;
+                        let tmp = parseFloat(money) + parseFloat(<%=data.wallet%>);
                         <%session.setAttribute("mode", "wallet");%>
-                        location.href = encodeURI('walletServlet?money=' + money);
+                        location.href = encodeURI('walletServlet?money=' + tmp);
                     }
                 } else {
                     alert('请输入正确的金额格式！(0-10000,元角分)');

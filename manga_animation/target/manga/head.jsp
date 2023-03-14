@@ -7,7 +7,7 @@
         let acc = <%=session.getAttribute("user")%>;
         if (acc !== null) {
             $('.login').addClass('hide');
-            $('#login').append("<div class='welcome'>欢迎！用户<%=session.getAttribute("nickname")%></div>");
+            $('#login').append("<div class='welcome'>欢迎！<%=session.getAttribute("nickname")%></div>");
             $('#login').append("<a href='logout.jsp'><input type='button' class='login' value='注销'></a>");
         }
     }

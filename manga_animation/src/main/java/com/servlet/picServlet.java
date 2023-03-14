@@ -30,13 +30,9 @@ public class picServlet extends HttpServlet {
         cd = part.getHeader("Content-Disposition");
         fileName = owner + cd.substring(cd.lastIndexOf("=") + 2, cd.length() - 1);
         session.setAttribute("picName", fileName);
-        String filePath = request.getServletContext().getRealPath("/img");
+        String filePath = "/data/wwwroot/default/manga/img";
         File saveDir = new File(filePath);
-        if (!saveDir.isDirectory()) {
-            saveDir.mkdir();
-        } else {
-            part.write(filePath + "/" + fileName);
-        }
+        part.write(filePath + "/" + fileName);
         inputServlet obj = new inputServlet();
         obj.doGet(request, response);
     }

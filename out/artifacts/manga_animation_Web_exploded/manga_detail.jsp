@@ -7,9 +7,6 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes"/>
     <title>漫画信息查看&更改</title>
-    <script src="js/messages_zh.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/jquery.validate.input.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <jsp:useBean id="getMangaData" class="com.bean.getMangaData"/>

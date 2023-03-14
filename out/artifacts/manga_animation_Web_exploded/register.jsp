@@ -13,10 +13,9 @@
         $().ready(function () {
             jQuery.validator.addMethod("judgePassword", function () {
                 let cmp = document.getElementById("pwd1").value;
-                let obj_nl = new RegExp(/[a-z1-9]/i);
-                let obj_s = new RegExp(/[^a-z1-9]/i);
-                return obj_nl.test(cmp) && obj_s.test(cmp);
-            }, "密码应由字母，数字以及符号组成组成！");
+                let obj = new RegExp(/[a-z1-9]/i);
+                return obj.test(cmp);
+            }, "密码应由字母，数字组成组成！");
             $("#form").validate({
                 rules: {
                     nickname: {
@@ -25,7 +24,6 @@
                     },
                     account: {
                         required: true,
-                        minlength: 8,
                     },
                     pwd1: {
                         required: true,
@@ -34,7 +32,6 @@
                     },
                     pwd2: {
                         required: true,
-                        minlength: 8,
                         equalTo: "#pwd1"
                     },
                     email: {
@@ -58,11 +55,10 @@
                     },
                     pwd1: {
                         required: "请输入密码",
-                        minlength: "密码长度不能小于 8 个字符",
+                        minlength: "密码至少为包含数字和字母的8个字符！",
                     },
                     pwd2: {
                         required: "请输入密码",
-                        minlength: "密码长度不能小于 8 个字符",
                         equalTo: "两次密码输入不一致"
                     },
                     email: "请输入邮箱的正确格式",
@@ -80,8 +76,12 @@
                     if (msg !== "")
                         alert(msg);
                 },
-                onfocusout: false,
-                onkeyup: false
+                onfocusout: function (element) {
+                    let valid = $(element).valid();
+                    if (!valid) {
+                        document.activeElement.blur();
+                    }
+                }
             })
         });
     </script>
@@ -105,7 +105,8 @@
                     </tr>
                     <tr>
                         <td>账号名:</td>
-                        <td><input id="account" name="account" type="text" class="t_p" placeholder="可作为登录凭证"></td>
+                        <td><input id="account" name="account" type="text" class="t_p" placeholder="可作为登录凭证">
+                        </td>
                     </tr>
                     <tr>
                         <td>密码:</td>
@@ -166,6 +167,7 @@
                     <tr>
                         <td colspan="2" style="text-align: center; padding-top: 10px">
                             <input type="submit" class="t_button" value="提交">
+                            <input type="hidden" id="focus" value="提交">
                         </td>
                     <tr>
                 </table>

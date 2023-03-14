@@ -10,10 +10,11 @@
     <script src="js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/messages_zh.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
+        function replaceSpace() {
+            let mname = document.getElementById("mname");
+            mname.value = mname.value.replace(/\s/g, "-")
+        }
         $().ready(function () {
-            $(document).find("input").on("input", function() {
-                this.value = this.value.replace(/\s/g, "-");
-            })
             $("#inputForm").validate({
                 rules: {
                     mname: {
@@ -85,8 +86,8 @@
                     if (msg !== "")
                         alert(msg);
                 },
-                onfocusout: false,
-                onkeyup: false
+                onkeyup: false,
+                onfocusout: false
             })
         });
     </script>
@@ -145,7 +146,7 @@
                     </tr>
                     <tr>
                         <td colspan="2" style="text-align: center; padding-top: 10px; padding-right: 50px">
-                            <input type="submit" class="t_button" value="录入">
+                            <input type="submit" class="t_button" onclick="replaceSpace()" value="录入">
                         </td>
                     </tr>
                 </table>
