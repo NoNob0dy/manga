@@ -9,38 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/java/com/servlet/picServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/java/com/servlet/picServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/input.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/js/tail.js" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/js/tail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/manga_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/picServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/picServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/classes/com/servlet/registerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga.war" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/picServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/picServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/WEB-INF/classes/com/servlet/registerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/input.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/js/tail.js" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/js/tail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/manga_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/manga_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga_animation/target/manga/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manga_animation/target/manga/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/picServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/picServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/WEB-INF/classes/com/servlet/registerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/input.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/js/tail.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/js/tail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/manga_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/manga_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manga_animation_Web_exploded/register.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="758c9574-496f-4dfd-8d61-bf4210041b21" name="变更" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/ArchiveForTencent/476412065/FileRecv/教学辅助",
+    "last_opened_file_path": "F:/Code/manga",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.20689656",
@@ -309,6 +278,7 @@
       <workItem from="1672714071793" duration="4944000" />
       <workItem from="1672925130668" duration="24000" />
       <workItem from="1673430770085" duration="21000" />
+      <workItem from="1678799637586" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672147504355</created>
@@ -380,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672406063498</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <created>1678799671746</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678799671746</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
